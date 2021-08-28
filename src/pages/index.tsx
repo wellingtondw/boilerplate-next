@@ -3,7 +3,5 @@ type Props = {
 }
 
 export default function Home({ title = 'Teste' }: Props) {
-  return (
-    <h1>{title}</h1>
-  )
+  return <h1>{title}</h1>
 }
